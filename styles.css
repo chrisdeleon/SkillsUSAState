@@ -5,6 +5,12 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: 'Montserrat';
+    scroll-behavior: smooth;
+}
+
+.removeLinkStyles {
+    text-decoration: none;
+    color: white;
 }
 
 /* navbar styles */
@@ -96,6 +102,132 @@ body {
     background-color: white;
     color: black;
 }
+
+
+/* footer CSS*/
+
+footer {
+    height: 25vh;
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.footerContainer li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.footerContainer li a{
+    color: black;
+    text-decoration: none;
+}
+
+.footerContainer li a:hover{
+    text-decoration: underline;
+}
+
+/* adopt page styles */
+
+.adoptTitleContainer {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.adoptViewportOne {
+    background: url('images/cuteCats.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    color: white;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.pointer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+.pointer a {
+    text-decoration: none;
+    color: white;
+}
+
+.pointer a:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.adoptViewportTwo h1, .adoptViewportTwo h3{
+    text-align: center;
+}
+
+.adoptionContainer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.adoptBox {
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+}
+
+.small {
+    max-width: 20vw;
+    border-radius: 10px;
+    box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.024),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.046),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+.left {
+    width: 45%;
+}
+
+.right {
+    width: 45%;
+}
+
+
+
+/* about page styles */
+
+
+
+
+.aboutusViewport {
+    text-align: center;
+    line-height: 30px;
+}
+
+.missionContainer {
+    text-align: left;
+}
+
+.FAQContainer {
+    text-align: left;
+}
+
+/* end about styles */
 
 /* BEGIN VIEWPORT TWO */
 
@@ -228,29 +360,3 @@ body {
 }
 
 /* END VIEWPORT THREE */
-
-/* footer CSS*/
-
-footer {
-    height: 25vh;
-    padding-top: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    width: 100%;
-}
-
-.footerContainer li{
-    list-style-type: none;
-    margin-top: 15px;
-}
-
-.footerContainer li a{
-    color: black;
-    text-decoration: none;
-}
-
-.footerContainer li a:hover{
-    text-decoration: underline;
-}
