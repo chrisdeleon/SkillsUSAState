@@ -98,3 +98,28 @@ body {
 }
 
 
+/* footer CSS*/
+
+footer {
+    height: 25vh;
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.footerContainer li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.footerContainer li a{
+    color: black;
+    text-decoration: none;
+}
+
+.footerContainer li a:hover{
+    text-decoration: underline;
+}
